@@ -1,8 +1,7 @@
 puts "I will now count my chickens:"
-# In the next lines I carrout out calculations withing the brackets
-# The # enables the calculation rather than ignoring it as comment
+
 puts "Hens #{25 + 30/6 }"
-# % is the modulous not percentage, 75%4 is 18*4 remainder 3
+
 puts "Roosters #{100-25*3 % 4}"
 
 puts "Now I will count the eggs:"

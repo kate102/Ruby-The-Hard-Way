@@ -1,0 +1,25 @@
+# types_of_people is a variable assigend a value of 10
+types_of_people = 10
+# x is a variable assigned a string value
+x = "There are #{types_of_people} types of people."
+binary = "binary"
+# If you change the double quotes to single then you mess up 'don't'
+do_not = "don't"
+y = "Those who know #{binary} and those who #{do_not}." # String inside a string 1
+
+puts x
+puts y
+
+puts "I said: #{x}" # String inside a string 2
+puts "I also said: #{y}" # String inside a string 3
+
+hilarious = false
+joke_evaluation = "Isn't that joke so funny?! #{hilarious}" # This is not a string inside a string, false is a boolean
+
+puts joke_evaluation
+
+
+w = "This is the left side of..."
+e = "a string with a right side."
+# It is possible to concatonate strings
+puts w + e
